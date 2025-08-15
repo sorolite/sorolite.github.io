@@ -5,11 +5,11 @@ body {
   margin-right: 15%;
 }
 
-div.centred-flex {
+div.centred-flex {/*
   display:flex;
   align-items: center;
   justify-content: center;
-}
+*/}
 
 h1 {
   text-align: center;

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practice problems for test.">
+  <title>Test — Field Notes</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%234338ca'/%3E%3Cpath d='M7 22c5-13 9-13 18 0M7 10h18' fill='none' stroke='white' stroke-width='2.4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+.practice > input:nth-of-type(1):checked ~ .problem-picker label:nth-child(1) { border-color: var(--accent); background: var(--accent); color: white; }
+.practice > input:nth-of-type(1):checked ~ .problems article:nth-child(1) { display: block; }
+  </style>
+  <script defer src="../math-fallback.js"></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <a class="brand" href="../index.html"><span class="brand-mark">∂</span> Field Notes</a>
+    <p class="nav-label">Topics</p>
+    <nav class="topic-nav" aria-label="Course topics">
+      <a href="../index.html">Overview</a>
+      <!-- TOPIC_NAV_START -->
+      <a href="test.html" aria-current="page">Test</a>
+      <!-- TOPIC_NAV_END -->
+    </nav>
+  </aside>
+  <main>
+    <h1>Test</h1>
+    <p class="lede">Practice problems for test.</p>
+    <section class="practice" aria-label="Test problems">
+      <input type="radio" name="p" id="p1" checked>
+      <div class="problem-picker" aria-label="Choose a problem"><label for="p1">1</label></div>
+      <div class="problems"><article class="problem"><span class="problem-number">Problem 1</span><div class="prompt"><p>Hello <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝐓</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>t</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathbf{T}(t)</annotation></semantics></math></p></div><details><summary>Reveal solution</summary><div class="solution"><p>world <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>𝐓</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>t</mi><mo stretchy="true" form="postfix">)</mo></mrow><mi mathvariant="normal">d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">\int \mathbf{T}(t) \mathrm{d} t</annotation></semantics></math>.</p></div></details></article></div>
+    </section>
+  </main>
+</div>
+</body>
+</html>

@@ -143,6 +143,7 @@ p { max-width: 66ch; }
 .prompt { margin: 1.3rem 0 2rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; }
 math[display="block"] { margin: 1.4rem 0; font-size: 1.22em; overflow-x: auto; overflow-y: hidden; }
 
+
 details { margin-top: 2rem; border-top: 1px solid var(--line); }
 summary { padding: 1rem 0; color: var(--accent); cursor: pointer; font-weight: 700; }
 details[open] summary { border-bottom: 1px solid var(--line); }
@@ -161,6 +162,12 @@ details[open] summary { border-bottom: 1px solid var(--line); }
   .topic-nav a[aria-current="page"] { border-left-color: transparent; border-bottom-color: var(--accent); }
   main { padding: 3rem 1.2rem 4rem; }
   .topic-grid { grid-template-columns: 1fr; }
+  .problem-picker { flex-wrap: wrap; }
+  .problem-picker label {
+    flex: 0 0 2.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
